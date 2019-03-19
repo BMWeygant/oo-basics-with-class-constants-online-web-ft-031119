@@ -6,7 +6,7 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-if BRANDS.each.!include(brand)
+if BRANDS.!include(brand)
     BRANDS << brand
   end
   end
