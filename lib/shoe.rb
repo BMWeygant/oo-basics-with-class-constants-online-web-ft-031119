@@ -6,7 +6,9 @@ BRANDS = []
 
   def initialize(brand)
     @brand = brand
-    BRANDS << brand.unique
+if BRANDS.each.!include(brand)
+    BRANDS << brand
+  end
   end
 
   def cobble
